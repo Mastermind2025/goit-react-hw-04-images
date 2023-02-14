@@ -50,7 +50,7 @@ export const App = () => {
 
   const isThereImagesOnPage = (total, page) => {
     const totalPages = Math.floor(total / PER_PAGE);
-    // console.log(totalPages);
+    
     return page < totalPages;
     
   }
